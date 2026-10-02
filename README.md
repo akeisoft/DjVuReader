@@ -1,5 +1,7 @@
 # DjVu Reader
 
+[DjVu Reader 0.5](https://github.com/akeisoft/DjVuReader/releases/download/0.5/DjVuReader.dmg)
+
 A native DjVu reader for macOS 14+. Free, open source (GPL 2.0 or later).
 Decoder — DjVuLibre 3.5.30: its source code is included in the project and is built along with the app.
 

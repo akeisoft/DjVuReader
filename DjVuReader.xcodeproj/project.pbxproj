@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99EB95FBEF9031E566BDA721 /* libDjVuLibre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C6E3A1A17111044D499528 /* libDjVuLibre.a */; };
+		ABD73B10F21471BB06148FDA /* osi in Resources */ = {isa = PBXBuildFile; fileRef = B96C650E93ACBA2E5C0BDEDC /* osi */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E0770ACD9162169B5A7A08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E850274F5DAAF4A479577D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43126D6AB1910D3818FAB64 /* DjVuLibre */;
+			remoteInfo = DjVuLibre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35E9336E6E1B32E797AD2944 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		85C6E3A1A17111044D499528 /* libDjVuLibre.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDjVuLibre.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D97F72FFF3C3B1470381CE3 /* DjVuReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DjVuReader.entitlements; sourceTree = "<group>"; };
+		946C771FC7BDB34D3FB6EF55 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A3FAC4941704E36FA7A54A0D /* DjVu Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DjVu Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96C650E93ACBA2E5C0BDEDC /* osi */ = {isa = PBXFileReference; lastKnownFileType = folder; path = osi; sourceTree = "<group>"; };
+		C6B460A55616345E7C281AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D14ED68F9F0B6E7F14FFD4 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		DA400AA2165756AC84E021AA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		136E742AA394BDA6CD3582CE /* libdjvu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = libdjvu;
+			sourceTree = "<group>";
+		};
+		B94F63E06301A1C81AF6872A /* Sources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FB6F804BAA57D57809FFB638 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1437A27516CCA257EC1E0810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2929B5DE3BD98930753D793B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EB95FBEF9031E566BDA721 /* libDjVuLibre.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A9CB2F0E54E1932CF7407C /* config */ = {
+			isa = PBXGroup;
+			children = (
+				35E9336E6E1B32E797AD2944 /* config.h */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		215BD1C6161986F83EEEC5C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FAC4941704E36FA7A54A0D /* DjVu Reader.app */,
+				85C6E3A1A17111044D499528 /* libDjVuLibre.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA32198096298DC44FE5C2F /* DjVuLibre */ = {
+			isa = PBXGroup;
+			children = (
+				04A9CB2F0E54E1932CF7407C /* config */,
+				136E742AA394BDA6CD3582CE /* libdjvu */,
+				B96C650E93ACBA2E5C0BDEDC /* osi */,
+				D7D14ED68F9F0B6E7F14FFD4 /* COPYING */,
+			);
+			path = DjVuLibre;
+			sourceTree = "<group>";
+		};
+		C0B8127A86DB7886CBD1BB72 = {
+			isa = PBXGroup;
+			children = (
+				B94F63E06301A1C81AF6872A /* Sources */,
+				FB6F804BAA57D57809FFB638 /* Resources */,
+				E7A01F88E3AA5DDDC204A651 /* Config */,
+				E5569C04936F4D7528E81E1D /* ThirdParty */,
+				DA400AA2165756AC84E021AA /* README.md */,
+				946C771FC7BDB34D3FB6EF55 /* LICENSE */,
+				215BD1C6161986F83EEEC5C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5569C04936F4D7528E81E1D /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				ADA32198096298DC44FE5C2F /* DjVuLibre */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		E7A01F88E3AA5DDDC204A651 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C6B460A55616345E7C281AC3 /* Info.plist */,
+				8D97F72FFF3C3B1470381CE3 /* DjVuReader.entitlements */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32EB07DA0D062F5292386526 /* DjVuReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7729062429BA1474F1D76B /* Build configuration list for PBXNativeTarget "DjVuReader" */;
+			buildPhases = (
+				BE8A810FAACAECF64B2D4799 /* Sources */,
+				2929B5DE3BD98930753D793B /* Frameworks */,
+				1CF5E75ED778574B3A5257BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				081DF4E9172EBDA796FBAB5E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B94F63E06301A1C81AF6872A /* Sources */,
+				FB6F804BAA57D57809FFB638 /* Resources */,
+			);
+			name = DjVuReader;
+			packageProductDependencies = (
+			);
+			productName = DjVuReader;
+			productReference = A3FAC4941704E36FA7A54A0D /* DjVu Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A43126D6AB1910D3818FAB64 /* DjVuLibre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0347451E497AD9509258116 /* Build configuration list for PBXNativeTarget "DjVuLibre" */;
+			buildPhases = (
+				E93B8EF1F4147E173EEA8EC9 /* Sources */,
+				1437A27516CCA257EC1E0810 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				136E742AA394BDA6CD3582CE /* libdjvu */,
+			);
+			name = DjVuLibre;
+			packageProductDependencies = (
+			);
+			productName = DjVuLibre;
+			productReference = 85C6E3A1A17111044D499528 /* libDjVuLibre.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E850274F5DAAF4A479577D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					32EB07DA0D062F5292386526 /* DjVuReader */ = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A43126D6AB1910D3818FAB64 /* DjVuLibre */ = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 9F83969E68F09C7AF03B90F9 /* Build configuration list for PBXProject "DjVuReader" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				uk,
+				ru,
+			);
+			mainGroup = C0B8127A86DB7886CBD1BB72;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 215BD1C6161986F83EEEC5C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32EB07DA0D062F5292386526 /* DjVuReader */,
+				A43126D6AB1910D3818FAB64 /* DjVuLibre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CF5E75ED778574B3A5257BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD73B10F21471BB06148FDA /* osi in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE8A810FAACAECF64B2D4799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93B8EF1F4147E173EEA8EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		081DF4E9172EBDA796FBAB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43126D6AB1910D3818FAB64 /* DjVuLibre */;
+			targetProxy = 8E0770ACD9162169B5A7A08D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		272DF26D95F896ABB77965F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B19875EE5F6947AD1B71999F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/DjVuReader.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/ThirdParty/DjVuLibre",
+				);
+				INFOPLIST_FILE = Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.3.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+					"-liconv",
+					"-framework",
+					CoreFoundation,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akeisoft.djvureader;
+				PRODUCT_MODULE_NAME = DjVuReader;
+				PRODUCT_NAME = "DjVu Reader";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Engine/DjVuReader-Bridging-Header.h";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C01CDF04EA70A17B90A6093C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C1D73CE136F1C2C7E1969B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/DjVuReader.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/ThirdParty/DjVuLibre",
+				);
+				INFOPLIST_FILE = Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.3.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lc++",
+					"-liconv",
+					"-framework",
+					CoreFoundation,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akeisoft.djvureader;
+				PRODUCT_MODULE_NAME = DjVuReader;
+				PRODUCT_NAME = "DjVu Reader";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Engine/DjVuReader-Bridging-Header.h";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DDB038725FFB5DF585E90DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_CONFIG_H=1",
+					"NDEBUG=1",
+				);
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/ThirdParty/DjVuLibre/config",
+				);
+				OTHER_LIBTOOLFLAGS = "-no_warning_for_no_symbols";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E22B505878F450A32D5B3ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_CONFIG_H=1",
+					"NDEBUG=1",
+				);
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/ThirdParty/DjVuLibre/config",
+				);
+				OTHER_LIBTOOLFLAGS = "-no_warning_for_no_symbols";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F7729062429BA1474F1D76B /* Build configuration list for PBXNativeTarget "DjVuReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D73CE136F1C2C7E1969B30 /* Debug */,
+				B19875EE5F6947AD1B71999F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F83969E68F09C7AF03B90F9 /* Build configuration list for PBXProject "DjVuReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272DF26D95F896ABB77965F9 /* Debug */,
+				C01CDF04EA70A17B90A6093C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0347451E497AD9509258116 /* Build configuration list for PBXNativeTarget "DjVuLibre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB038725FFB5DF585E90DE0 /* Debug */,
+				E22B505878F450A32D5B3ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 3E850274F5DAAF4A479577D2 /* Project object */;
+}
